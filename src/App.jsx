@@ -10,6 +10,7 @@ function App() {
     <Router>
       <div className="bg-black min-h-screen">
         <Routes>
+          <Route path="selected-projects" element={<HomePage />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/project/:id" element={<ProjectDetailPage />} />
         </Routes>
